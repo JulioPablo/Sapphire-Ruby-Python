@@ -24,8 +24,8 @@
 /*Header*/
 .widget .header {
     min-height: 51px;
-    border-color: #FF6600;
-    background-color: #402F1C;
+    border-color: #89A63D;
+    background-color: #fff;
     border-bottom-width: 4px;
     border-bottom-style: solid;
     position: relative;
@@ -60,7 +60,7 @@
 
 /*Pestaña activa*/
 .widget .header .sources .source.active {
-    background-color: #FF6600;
+    background-color: #89A63D;
 
 }
 
@@ -86,7 +86,7 @@
     display: inline-block;
     padding: 7px 30px 4px 30px;
     background:none;
-    background-color: #FF6600;
+    background-color: #89A63D;
     /*
     background: -moz-linear-gradient(top,#0284cf 0,#02598b 100%);
     background: -o-linear-gradient(top,#0284cf 0,#02598b 100%);
@@ -97,7 +97,7 @@
 /*Hover de los botones*/
 .widget .button:hover, .widget .upload_button_holder:hover .button {
     background:none;
-    background: #FF6600;
+    background:#89A63D;
     /* background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); */
     /*background: -moz-linear-gradient(top,#02598b 0,#0284cf 100%);
     /* background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#02598b),color-stop(100%,#0284cf)); */
@@ -111,15 +111,15 @@
 /*Bordes de rayas donde se arrastra la imagen*/
 .widget .panel.local .drag_area {
     height: 325px;
-    border: 2px dashed #FF6600;
-    background-color: #f6f8fb;
+    border: 2px dashed #89A63D;
+    background-color: #89A63D;
     margin: 60px;
 }
 
 /*Arrastre su imagen...*/
 .widget .panel.local .drag_area .drag_content .label {
     display: block;
-    color: #FF6600;
+    color: #89A63D;
     font-size: 28px;
     line-height: 35px;
     text-align: center;
@@ -132,7 +132,7 @@
     text-align: center;
     font-size: 18px;
     line-height: 23px;
-    color: FF6600;
+    color: #89A63D;
     margin-bottom: 20px;
 }
 
