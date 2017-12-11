@@ -112,14 +112,13 @@
 .widget .panel.local .drag_area {
     height: 325px;
     border: 2px dashed #89A63D;
-    background-color:rgba(137, 166, 61, 0.3);
     margin: 60px;
 }
 
 /*Arrastre su imagen...*/
 .widget .panel.local .drag_area .drag_content .label {
     display: block;
-    color: #FF6600;
+    color: #89A63D;
     font-size: 28px;
     line-height: 35px;
     text-align: center;
@@ -136,3 +135,6 @@
     margin-bottom: 20px;
 }
 
+.widget .panel.local .upload_button_holder .select_file {
+    width: 250px;
+}
