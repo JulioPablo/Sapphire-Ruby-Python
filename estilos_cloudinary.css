@@ -112,7 +112,7 @@
 .widget .panel.local .drag_area {
     height: 325px;
     border: 2px dashed #89A63D;
-    background-color: #89A63D;
+    background-color:rgba(137, 166, 61, 0.3);
     margin: 60px;
 }
 
